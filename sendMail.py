@@ -8,7 +8,7 @@ email_user = 'yourmailId'
 email_password = 'yourPassword'
 email_send = 'receiverMail'
 
-subject = 'Trail'
+subject = 'Logged Data'
 
 msg = MIMEMultipart()
 msg['From'] = email_user
